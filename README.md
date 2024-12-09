@@ -17,17 +17,21 @@
 - As a user, I want to create a profile to showcase my achievements.
 - As a user, I want live updates to stay informed about events and opportunities.
 
+#### Club
+
+- As a club, I want to create virtual tryouts events.
+
 #### Athlete
 
 - As an athlete, I want to join virtual tryouts to display my skills.
 
 #### Coach
 
-- As an athlete, I want to join virtual tryouts to display my skills.
+- As a coach, I can apply to club/federations jobs.
 
-#### Club
+#### Agent
 
-- As a club, I want to create virtual tryouts events.
+- As an agent, I can scout athletes.
 
 #### Federation
 
