@@ -35,7 +35,7 @@
 
 #### Federation
 
-- As federation, I want to approve trophies for clubs and athletes.
+- As a federation, I want to approve trophies for clubs and athletes.
 
 <br><br>
 
