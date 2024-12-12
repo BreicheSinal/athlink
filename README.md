@@ -13,9 +13,10 @@
 
 #### User
 
-- As a user, I want to connect with other athletes, coaches, and agents.
+- As a user, I want to connect with other athletes, agents, and federations.
 - As a user, I want to create a profile to showcase my achievements.
 - As a user, I want live updates to stay informed about events and opportunities.
+- As a user, I want to chat with my connections.
 
 #### Club
 
@@ -24,10 +25,6 @@
 #### Athlete
 
 - As an athlete, I want to join virtual tryouts to display my skills.
-
-#### Coach
-
-- As a coach, I can apply to club/federations jobs.
 
 #### Agent
 
