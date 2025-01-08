@@ -5,7 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> An innovative platform designed for athletes to showcase their achievements, connect with coaches, agents, and fellow athletes, and take their careers to the next level.
+> An innovative platform designed for athletes to showcase their achievements, connect with coaches, clubs, and fellow athletes, and take their careers to the next level.
 >
 > AthLink streamlines networking for athletes by offering features like virtual tryouts, real-time updates, and blockchain-based achievement verification, ensuring authenticity and ease of access. AthLink to empower athletes by saving time and creating meaningful connections that drive success.
 
@@ -13,7 +13,7 @@
 
 #### User
 
-- As a user, I want to connect with other athletes, agents, and federations.
+- As a user, I want to connect with other athletes, clubs, and federations.
 - As a user, I want to create a profile to showcase my achievements.
 - As a user, I want live updates to stay informed about events and opportunities.
 - As a user, I want to chat with my connections.
@@ -21,14 +21,12 @@
 #### Club
 
 - As a club, I want to create virtual tryouts events.
+- As a club, I want to request a trophy verification from federations.
 
 #### Athlete
 
 - As an athlete, I want to join virtual tryouts to display my skills.
-
-#### Agent
-
-- As an agent, I can scout athletes.
+- As an athlete, I want to request a trophy verification from federations.
 
 #### Federation
 
