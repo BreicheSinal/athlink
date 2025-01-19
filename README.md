@@ -7,30 +7,30 @@
 
 > An innovative platform designed for athletes to showcase their achievements, connect with coaches, clubs, and fellow athletes, and take their careers to the next level.
 >
-> AthLink streamlines networking for athletes by offering features like virtual tryouts, real-time updates, and blockchain-based achievement verification, ensuring authenticity and ease of access. AthLink to empower athletes by saving time and creating meaningful connections that drive success.
+> AthLink streamlines networking for athletes by offering features like virtual tryouts, chat messaging, and blockchain-based achievement verification, ensuring authenticity and ease of access. AthLink to empower athletes by saving time and creating meaningful connections that drive success.
 
 ### User Stories
 
 #### User
 
-- As a user, I want to connect with other athletes, clubs, and federations.
-- As a user, I want to create a profile to showcase my achievements.
-- As a user, I want live updates to stay informed about events and opportunities.
-- As a user, I want to chat with my connections.
+- As a user, I want to connect with other athletes, clubs, and federations so that I can expand my network.
+- As a user, I want to create a profile to showcase my achievements so that others can view my progress.
+- As a user, I want live updates to stay informed about events and opportunities so that I don't miss out on important activities.
+- As a user, I want to chat with my connections so that I can communicate easily.
 
 #### Club
 
-- As a club, I want to create virtual tryouts events.
-- As a club, I want to request a trophy verification from federations.
+- As a club, I want to create virtual tryout events so that athletes can display their skills.
+- I want to request a trophy verification from federations so that I can confirm achievements.
 
 #### Athlete
 
-- As an athlete, I want to join virtual tryouts to display my skills.
-- As an athlete, I want to request a trophy verification from federations.
+- As an athlete, I want to join virtual tryouts to display my skills so that clubs can see my potential.
+- As an athlete, I want to request a trophy verification from federations so that I can validate my accomplishments.
 
 #### Federation
 
-- As a federation, I want to approve trophies for clubs and athletes.
+- As a federation, I want to approve trophies for clubs and athletes so that achievements are officially recognized.
 
 <br><br>
 
@@ -55,9 +55,9 @@
 
 ### Mockups
 
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Athlete Profile screen              | Chat Screen                       |
+| ----------------------------------- | --------------------------------- |
+| ![Landing](./readme/demo/ath01.png) | ![fsdaf](./readme/demo/ath02.png) |
 
 <br><br>
 
@@ -66,62 +66,43 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+<img src="./readme/svgs/ath03.svg"/>
 
 <br><br>
 
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
-### User Screens (Mobile)
+### Athlete Screens (Web)
 
-| Login screen                              | Register screen                         | Landing screen                          | Loading screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen                               | Menu Screen                             | Order Screen                            | Checkout Screen                         |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+| Profile                               | Tryout                                |
+| ------------------------------------- | ------------------------------------- |
+| ![Landing](./readme/images/ath08.png) | ![Landing](./readme/images/ath06.png) |
 
-### Admin Screens (Web)
+### Features Screens
 
-| Login screen                            | Register screen                       | Landing screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Chat Screen                         | Smart Notes                       |
+| ----------------------------------- | --------------------------------- |
+| ![Landing](./readme/gifs/ath04.gif) | ![fsdaf](./readme/gifs/ath05.gif) |
 
-<br><br>
+### Club Screens
 
-<!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
+|                                       |                                       |
+| ------------------------------------- | ------------------------------------- |
+| ![Landing](./readme/images/ath09.png) | ![Landing](./readme/images/ath09.png) |
 
-### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Coach | Federation Screens
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
-
-<br><br>
-
-<!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
-
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
-
-<br><br>
-
-<!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
-
-### Precision in Development: Harnessing the Power of Unit Testing:
-
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+|                                       |                                       |
+| ------------------------------------- | ------------------------------------- |
+| ![Landing](./readme/images/ath11.png) | ![Landing](./readme/images/ath10.png) |
 
 <br><br>
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up AthLink locally, follow these steps:
 
 ### Prerequisites
 
