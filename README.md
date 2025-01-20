@@ -5,9 +5,9 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> An innovative platform designed for athletes to showcase their achievements, connect with coaches, clubs, and fellow athletes, and take their careers to the next level.
+> An innovative platform designed for athletes to showcase their achievements, connect with coaches, clubs, federations, and fellow athletes, and take their careers to the next level.
 >
-> AthLink enhances networking for athletes by offering features like virtual tryouts, chat messaging, and blockchain-based achievement verification, ensuring authenticity and ease of access. Clubs can use AI to organize and structure unorganized notes related to athletes' virtual tryouts, saving time and creating meaningful connections.
+> AthLink enhances networking for athletes by offering features like virtual tryouts, chat messaging, and blockchain-based achievement verification, ensuring authenticity and ease of access. Clubs can use AI to structure unorganized notes related to athletes' virtual tryouts, saving time and creating meaningful connections.
 
 ### User Stories
 
@@ -44,13 +44,25 @@
 
 ### AthLink is built using the following technologies:
 
-- Frontend: the project uses [ReactJS](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/). React is a JavaScript library for building dynamic and interactive user interfaces, and TypeScript adds static typing.
+- Frontend:
+  - [ReactJS](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
+  - React is a JavaScript library that facilitates building single web page application (SPA).
+  - TypeScript adds static typing.
 
-- Backend: the project is built with [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/), both implemented in TypeScript. Node.js is a runtime environment for JavaScript and Express.js is a web application framework that runs on top of Node.js.
+- Backend:
+  - [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/) with [TypeScript](https://www.typescriptlang.org/)
+  - Node.js is a runtime environment for JavaScript
+  - Express.js is a web application framework that runs on top of Node.js.
 
-- The blockchain functionality is implemented using [Hardhat](https://hardhat.org/) and [Solidity](https://soliditylang.org/). Hardhat is a development environment for Ethereum, and Solidity is the smart contract programming language. All blockchain-related code is also written in TypeScript for consistency.
-
-- Database: the project uses [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/), a TypeScript-based ORM. This ensures type safety when defining entities and interacting with the database.
+- Blockchain functionality:
+  - [Hardhat](https://hardhat.org/) and [Solidity](https://soliditylang.org/) with [TypeScript](https://www.typescriptlang.org/)
+  - Hardhat is a development environment for Ethereum.
+  - Solidity is the smart contract programming language.
+    
+- Database: 
+  - [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/)
+  - MySQL is a database management system.
+  - TypeOrm is a TypeScript-based ORM.
 
 <br><br>
 
