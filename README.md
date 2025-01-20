@@ -75,27 +75,21 @@
 
 ### Athlete Screens
 
-| Profile                               | Tryout                               |
+|                                       |                                      |
 | ------------------------------------- | ------------------------------------ |
-| ![Profile](./readme/images/ath08.png) | ![Tryout](./readme/images/ath06.png) |
+| ![Profile](./readme/images/ath08.png) | ![ApplyToTryouts](./readme/images/ath06.png) |
 
 ### Features
 
-| Notes Refiner                       | Chat Messaging                    |
-| ----------------------------------- | --------------------------------- |
-| ![Landing](./readme/gifs/notes.gif) | ![fsdaf](./readme/gifs/ath04.gif) |
+|                                          |                                       |
+| ---------------------------------------- | ------------------------------------- |
+| ![NotesRefiner](./readme/gifs/ath05.gif) | ![Messaging](./readme/gifs/ath04.gif) |
 
-### Club Screens
+### Club | Coach Screens
 
-| Tryout                                | Tryout                                |
-| ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/images/ath09.png) | ![Landing](./readme/images/ath09.png) |
-
-### Coach | Federation Screens
-
-| Profile                               | Trophy Approval                         |
-| ------------------------------------- | --------------------------------------- |
-| ![Profile](./readme/images/ath11.png) | ![Approvals](./readme/images/ath10.png) |
+|                                              |                                       |
+| -------------------------------------------- | ------------------------------------- |
+| ![TryoutCreation](./readme/images/ath09.png) | ![Profile](./readme/images/ath11.png) |
 
 <br><br>
 
@@ -106,27 +100,154 @@
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Before you begin, ensure you have the following installed:
+
+- Node.js (v18.0.0 or higher)
+
+- npm (latest version)
 
 - npm
   ```sh
   npm install npm@latest -g
   ```
+- Git
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clone the repo
+   git clone [github](https://github.com/BreicheSinal/athlink)
+2. Frontend Setup (React Application)
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+   2.1 Navigate to frontend directory
+
+   ```sh
+   cd athlink/app
+   ```
+
+   2.2. Install dependencies
+
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+
+   2.3. Start development server
+
+   ```sh
+   npm run start
    ```
 
-Now, you should be able to run AthLink locally and explore its features.
+3. Backend Setup (Node.js Server)
+
+   3.1 Navigate to backend directory
+
+   ```sh
+   cd ../server
+   ```
+
+   3.2. Install dependencies
+
+   ```sh
+   npm install
+   ```
+
+   3.3. Build and start the server
+
+   ```sh
+   npm run serve
+   ```
+
+4. Blockchain Setup (Hardhat Project)
+
+   4.1 Navigate to blockchain directory
+
+   ```sh
+   cd ../blockchain
+   ```
+
+   4.2. Install dependencies
+
+   ```sh
+   npm install
+   ```
+
+   4.3. Run local hardhat node (optional)
+
+   ```sh
+   npx hardhat node
+   ```
+
+### Environment Variables
+
+Make sure to set up the following environment variables:
+
+- Frontend (.env)
+
+  ```sh
+  VITE_SERVER_PORT=your_server_port
+  ```
+
+- Backend (.env)
+
+  ```sh
+  PORT=3000
+  SERVER_PORT=your_server_port
+  DB_HOST=localhost
+  DB_USER=root
+  DB_PASSWORD=your_password
+  DB_NAME=your_db_name
+  DB_PORT=3306  JWT_SECRET=your_jwt_secret
+  OPENAI_API_KEY=your_openai_api_key
+  DAILY_API_KEY=your_daily_co_api_key
+  RPC_URL=your_rpc_url_string
+  ```
+
+- Blockchain (.env)
+
+  ```sh
+  LOCALHOST_URL=your_localhost_url_string
+  ```
+
+### Development
+
+To run the entire stack locally:
+
+1. Start the frontend development server:
+
+   ```sh
+   cd app
+   npm run start
+   ```
+
+2. Start the backend server:
+
+   ```sh
+   cd server
+   npm run serve
+   ```
+
+3. Start local blockchain node (if needed):
+
+   ```sh
+   cd blockchain
+   npx hardhat node
+   ```
+
+### Build
+
+To build for production:
+
+1. Frontend:
+
+   ```sh
+   cd app
+   npm run build
+   ```
+
+2. Start the backend server:
+
+   ```sh
+   cd server
+   npm run build
+   ```
+
+Now you should be able to run the entire AthLink application locally and explore its features. Make sure all services (frontend, backend, and blockchain node) are running simultaneously for full functionality.
