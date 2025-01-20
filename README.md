@@ -46,11 +46,11 @@
 
 - This project uses [ReactJS](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/) for the frontend. React is a JavaScript library for building dynamic and interactive user interfaces, and TypeScript adds static typing, improving code quality and maintainability.
 
-- For the backend, the project is built with [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/).js, both implemented in TypeScript, offering a fast and scalable framework for handling API requests and routing.
+- For the backend, the project is built with [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/).js, both implemented in TypeScript.
 
 - The blockchain functionality is implemented using [Hardhat](https://hardhat.org/) and [Solidity](https://soliditylang.org/). Hardhat is a development environment for Ethereum, and Solidity is the smart contract programming language. All blockchain-related code is also written in TypeScript for consistency and better development experience.
 
-- For persistent storage, the project uses [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/), a TypeScript-based ORM. This ensures type safety when defining entities and interacting with the database, while efficiently handling structured data.
+- Database: the project uses [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/), a TypeScript-based ORM. This ensures type safety when defining entities and interacting with the database, while efficiently handling structured data.
 
 <br><br>
 
