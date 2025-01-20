@@ -61,8 +61,8 @@
     
 - Database: 
   - [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/)
-  - MySQL is a database management system.
-  - TypeOrm is a TypeScript-based ORM.
+  - MySQL is a relational database management system.
+  - TypeOrm is a TypeScript-based Object-Relational Mapper (ORM) that helps interact with databases.
 
 <br><br>
 
