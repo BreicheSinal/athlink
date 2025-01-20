@@ -7,7 +7,7 @@
 
 > An innovative platform designed for athletes to showcase their achievements, connect with coaches, clubs, and fellow athletes, and take their careers to the next level.
 >
-> AthLink streamlines networking for athletes by offering features like virtual tryouts, chat messaging, and blockchain-based achievement verification, ensuring authenticity and ease of access. AthLink to empower athletes by saving time and creating meaningful connections that drive success.
+> AthLink streamlines networking for athletes by offering features like virtual tryouts, chat messaging, and blockchain-based achievement verification, ensuring authenticity and ease of access. Clubs can use AI to organize and structure unorganized notes related to athletes' virtual tryouts, saving time and creating meaningful connections that drive success.
 
 ### User Stories
 
