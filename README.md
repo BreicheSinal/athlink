@@ -55,9 +55,9 @@
 
 ### Mockups
 
-| Athlete Profile screen              | Chat Screen                       |
-| ----------------------------------- | --------------------------------- |
-| ![Landing](./readme/demo/ath01.png) | ![fsdaf](./readme/demo/ath02.png) |
+| Athlete Profile screen                | Chat Screen                        |
+| ------------------------------------- | ---------------------------------- |
+| ![Profile](./readme/images/ath01.png) | ![Chat](./readme/images/ath02.png) |
 
 <br><br>
 
@@ -73,29 +73,29 @@
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
-### Athlete Screens (Web)
+### Athlete Screens
 
-| Profile                               | Tryout                                |
-| ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/images/ath08.png) | ![Landing](./readme/images/ath06.png) |
+| Profile                               | Tryout                               |
+| ------------------------------------- | ------------------------------------ |
+| ![Profile](./readme/images/ath08.png) | ![Tryout](./readme/images/ath06.png) |
 
-### Features Screens
+### Features
 
-| Chat Screen                         | Smart Notes                       |
+| Notes Refiner                       | Chat Messaging                    |
 | ----------------------------------- | --------------------------------- |
-| ![Landing](./readme/gifs/ath04.gif) | ![fsdaf](./readme/gifs/ath05.gif) |
+| ![Landing](./readme/gifs/notes.gif) | ![fsdaf](./readme/gifs/ath04.gif) |
 
 ### Club Screens
 
-|                                       |                                       |
+| Tryout                                | Tryout                                |
 | ------------------------------------- | ------------------------------------- |
 | ![Landing](./readme/images/ath09.png) | ![Landing](./readme/images/ath09.png) |
 
 ### Coach | Federation Screens
 
-|                                       |                                       |
-| ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/images/ath11.png) | ![Landing](./readme/images/ath10.png) |
+| Profile                               | Trophy Approval                         |
+| ------------------------------------- | --------------------------------------- |
+| ![Profile](./readme/images/ath11.png) | ![Approvals](./readme/images/ath10.png) |
 
 <br><br>
 
