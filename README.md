@@ -129,14 +129,16 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. Clone the repo
-   git clone [github](https://github.com/BreicheSinal/athlink)
+1. Run the command to clone the repository and all its submodules
+   ```sh
+   git clone --recurse-submodules https://github.com/BreicheSinal/athlink
+   ```
 2. Frontend Setup (React Application)
 
    2.1 Navigate to frontend directory
 
    ```sh
-   cd athlink/app
+   cd app
    ```
 
    2.2. Install dependencies
