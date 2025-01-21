@@ -14,24 +14,19 @@
 #### User
 
 - As a user, I want to connect with other athletes, clubs, and federations so that I can expand my network.
-
 - As a user, I want to create a profile to showcase my achievements so that others can view my progress.
-
 - As a user, I want to stay informed about events and opportunities so that I don't miss out on important activities.
-
 - As a user, I want to chat with my connections so that I can communicate easily.
-
-#### Club
-
-- As a club, I want to create virtual tryout events so that athletes can display their skills.
-
-- As a club, I want to write unstructured notes so they can be processed and organized into a clear format.
 
 #### Athlete
 
 - As an athlete, I want to join virtual tryouts to display my skills so that clubs can see my potential.
-
 - As an athlete, I want to request a trophy verification from federations so that I can validate my accomplishments.
+- 
+#### Club
+
+- As a club, I want to create virtual tryout events so that athletes can display their skills.
+- As a club, I want to write unstructured notes so they can be processed and organized into a clear format.
 
 #### Federation
 
