@@ -50,7 +50,7 @@
 - Backend
 
   - [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/) with [TypeScript](https://www.typescriptlang.org/)
-  - Node.js is a runtime environment for JavaScript
+  - Node.js is a runtime environment for JavaScript.
   - Express.js is a web application framework that runs on top of Node.js.
   - [JWT](https://jwt.io/) handles secure user authentication.
   - [Socket.IO](https://socket.io/) enables real-time chat functionality.
@@ -211,12 +211,19 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-   4.3. Run local hardhat node (optional)
+   4.3. Run local hardhat node
 
    ```sh
    npx hardhat node
    ```
+   4.3. Deploy the Smart Contract
 
+   ```sh
+   npx hardhat run scripts/deploy.ts --network localhost
+   ```
+    - 4.3.1
+      After deployment, you will see the contract address in the console. You can use this address to interact with your smart contract locally.
+   
 ### Environment Variables
 
 Make sure to set up the following environment variables:
@@ -240,6 +247,8 @@ Make sure to set up the following environment variables:
   OPENAI_API_KEY=your_openai_api_key
   DAILY_API_KEY=your_daily_co_api_key
   RPC_URL=your_rpc_url_string
+  CONTRACT_ADDRESS=your_contract_address
+  PRIVATE_KEY=your_private_key
   ```
 
 - Blockchain (.env)
@@ -266,7 +275,7 @@ To run the entire stack locally:
    npm run serve
    ```
 
-3. Start local blockchain node (if needed):
+3. Start local blockchain node:
 
    ```sh
    cd blockchain
@@ -291,4 +300,4 @@ To build for production:
    npm run build
    ```
 
-Now you should be able to run the entire AthLink application locally and explore its features. Make sure all services (frontend, backend, and blockchain node) are running simultaneously for full functionality ;)
+Now you should be able to run the entire AthLink application locally and explore its features. Make sure all services are running simultaneously for full functionality. ENJOY! ;)
