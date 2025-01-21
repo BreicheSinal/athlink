@@ -118,6 +118,22 @@
 
 <br><br>
 
+<!-- AWS Deployment -->
+<img src="./readme/title8.svg"/>
+
+### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+
+- This project uses AWS's EC2 instance to run the backend server.
+- API endpoints were tested using [Postman](https://www.postman.com/)
+
+| Login                                    | Delete Tryout                         |
+| ---------------------------------------- | ------------------------------------- |
+| ![Loginc](./readme/images/102.png)       | ![Delete](./readme/images/106.png)    |
+| Update Status                            | Search Users                          |
+| ![NotesRefiner](./readme/images/103.png) | ![Messaging](./readme/images/105.png) |
+
+<br><br>
+
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
