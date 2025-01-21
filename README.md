@@ -40,7 +40,7 @@
 
 ### AthLink is built using the following technologies:
 
-- Frontend:
+- Frontend
 
   - [ReactJS](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
   - React is a JavaScript library that facilitates building single web page application (SPA).
@@ -48,7 +48,7 @@
   - [React Redux](https://react-redux.js.org/) manages application state.
   - [Socket.IO Client](https://socket.io/) handles real-time chat messaging.
 
-- Backend:
+- Backend
 
   - [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/) with [TypeScript](https://www.typescriptlang.org/)
   - Node.js is a runtime environment for JavaScript
@@ -59,11 +59,12 @@
   - [Bcrypt](https://www.npmjs.com/package/bcrypt) securely hashes user passwords.
   - [OpenAI](https://platform.openai.com/docs/overview) helps structure and analyze athlete tryout notes.
 
-- Blockchain functionality:
+- Blockchain functionality
   - [Hardhat](https://hardhat.org/) and [Solidity](https://soliditylang.org/) with [TypeScript](https://www.typescriptlang.org/)
   - Hardhat is a development environment for Ethereum.
   - Solidity is the smart contract programming language.
-- Database:
+    
+- Database
   - [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/)
   - MySQL is a relational database management system.
   - TypeOrm is a TypeScript-based Object-Relational Mapper (ORM) that helps interact with databases.
@@ -146,8 +147,6 @@ Before you begin, ensure you have the following installed:
 - Node.js (v18.0.0 or higher)
 
 - npm (latest version)
-
-- npm
   ```sh
   npm install npm@latest -g
   ```
