@@ -22,7 +22,8 @@
 
 - As an athlete, I want to join virtual tryouts to display my skills so that clubs can see my potential.
 - As an athlete, I want to request a trophy verification from federations so that I can validate my accomplishments.
-- 
+-
+
 #### Club
 
 - As a club, I want to create virtual tryout events so that athletes can display their skills.
@@ -40,21 +41,29 @@
 ### AthLink is built using the following technologies:
 
 - Frontend:
+
   - [ReactJS](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
   - React is a JavaScript library that facilitates building single web page application (SPA).
   - TypeScript adds static typing.
+  - [React Redux](https://react-redux.js.org/) manages application state.
+  - [Socket.IO Client](https://socket.io/) handles real-time chat messaging.
 
 - Backend:
+
   - [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/) with [TypeScript](https://www.typescriptlang.org/)
   - Node.js is a runtime environment for JavaScript
   - Express.js is a web application framework that runs on top of Node.js.
+  - [JWT](https://jwt.io/) handles secure user authentication.
+  - [Socket.IO](https://socket.io/) enables real-time chat functionality.
+  - [Zod](https://zod.dev/) handles data validation.
+  - [Bcrypt](https://www.npmjs.com/package/bcrypt) securely hashes user passwords.
+  - [OpenAI](https://platform.openai.com/docs/overview) helps structure and analyze athlete tryout notes.
 
 - Blockchain functionality:
   - [Hardhat](https://hardhat.org/) and [Solidity](https://soliditylang.org/) with [TypeScript](https://www.typescriptlang.org/)
   - Hardhat is a development environment for Ethereum.
   - Solidity is the smart contract programming language.
-    
-- Database: 
+- Database:
   - [MySQL](https://www.mysql.com/) with [TypeORM](https://typeorm.io/)
   - MySQL is a relational database management system.
   - TypeOrm is a TypeScript-based Object-Relational Mapper (ORM) that helps interact with databases.
@@ -99,6 +108,7 @@
 |                                             |                                               |
 | ------------------------------------------- | --------------------------------------------- |
 | ![NotesRefiner](./readme/gifs/athnotes.gif) | ![Messaging](./readme/gifs/chatmessaging.gif) |
+| ![NotesRefiner](./readme/gifs/ath14.gif)    | ![Messaging](./readme/gifs/ath15.gif)         |
 
 ### Club | Coach Screens
 
