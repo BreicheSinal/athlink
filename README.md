@@ -22,7 +22,6 @@
 
 - As an athlete, I want to join virtual tryouts to display my skills so that clubs can see my potential.
 - As an athlete, I want to request a trophy verification from federations so that I can validate my accomplishments.
--
 
 #### Club
 
