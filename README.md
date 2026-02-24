@@ -75,7 +75,7 @@
 
 > AthLink was designed by sketching wireframes and mockups.
 
-- Project Figma design [figma](https://www.figma.com/design/u8iZ0DJwwUpwmVqQ152vdw/UI-UX-Assignments?node-id=260-1702&t=H47oHMIAlvy2OCb3-1)
+- Project Figma design [figma](https://www.figma.com/design/uxHg6ygmunrnsrwbnC9bdn/AthLink?node-id=0-1&t=XCKljFRnsS9kmY0s-1)
 
 ### Mockups
 
